@@ -29,7 +29,3 @@ USER $USERNAME
 
 # 作業ディレクトリ設定
 WORKDIR $WORKDIR
-
-# パッケージ更新
-RUN python -m pip install --upgrade --user pip
-RUN python -m pip install --upgrade --user setuptools

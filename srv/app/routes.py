@@ -1,7 +1,7 @@
 from flask import Blueprint, request, jsonify
 from flask_jwt_extended import jwt_required
 from app.controller.user_controller import create_login_controller
-from app.controller.auth_controller import login_controller, logout_controller
+from app.controller.auth_controller import login_controller
 from app.utils.custom_log import get_logger, log
 
 # ログオブジェクト生成
